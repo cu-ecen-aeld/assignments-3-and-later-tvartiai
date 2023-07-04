@@ -48,9 +48,9 @@ then
 		exit 1
 	fi
 
-	echo "Removing the old writer utility and compiling as a native application"
-	make clean
-	make
+	#echo "Removing the old writer utility and compiling as a native application"
+	#make clean
+	#make
 fi
 
 for i in $( seq 1 $NUMFILES)
